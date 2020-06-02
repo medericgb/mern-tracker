@@ -4,8 +4,19 @@
   "description": "Mern Tracker",
   "main": "server.js",
   "scripts": {
+    "server-watch": "nodemon server",
+    "server": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mederic Joel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
